@@ -1,3 +1,7 @@
+<h4 align="center">
+  <img src="https://github.com/gustavo-nt/ignite-rocketshoes/blob/master/src/assets/images/logo-github.svg" alt="logo" height="50"/>
+</h4>
+
 <h1 align="center">
     🚀 Rocketshoes
 </h1>
@@ -22,15 +26,18 @@
 
 ### 📎 Features 
 
-- [x] Seleção de Categorias
-- [x] Listagem de filmes
-- [x] Informações dos filmes
+- [x] Listagem de Produtos
+- [x] Seleção de produtos desejados
+- [x] Carrinho com listagem de produtos
+- [x] Opção de quantidade do produto
+- [x] Opção de deletar o produto selecionado
+- [x] Subtotal e total dos preços dos produtos
 
 ### 💻 Projeto
-Rocketshoes é 
+Rocketshoes é uma aplicação para venda de sapatos e tênis, onde possibilita ao usuário, a escolha da sua lista de produtos. Permitindo que "coloque" os produtos desejados em seu carrinho da aplicação. Esse Projeto foi desenvolvido como desafio principal do Capítulo II do Bootcamp Ignite.
 
 ### ✅ Demonstração
-<img src="https://github.com/gustavo-nt/ignite-watchme/blob/master/src/assets/watchme.png" />
+<img src="https://github.com/gustavo-nt/ignite-rocketshoes/blob/master/src/assets/images/home.png" />
 
 ### ⚙ Pré-requisitos
 
