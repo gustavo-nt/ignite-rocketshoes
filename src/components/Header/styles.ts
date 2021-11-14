@@ -8,6 +8,7 @@ export const Container = styled.header`
   margin: 50px 0;
 
   a {
+    position: relative;
     transition: opacity 0.2s;
 
     &:hover {
@@ -21,7 +22,7 @@ export const Cart = styled(Link)`
   align-items: center;
   text-decoration: none;
 
-  div {
+  > div {
     text-align: right;
     margin-right: 10px;
 
@@ -30,9 +31,38 @@ export const Cart = styled(Link)`
       color: #fff;
     }
 
-    span {
-      font-size: 12px;
-      color: #999;
+    .amount {
+      span {
+        font-size: 12px;
+        color: #999;
+      }
+    }
+  }
+
+  @media(max-width: 478px) {
+    > div {
+      position: absolute;
+      right: -8px;
+      top: 0;
+
+      border-radius: 50%;
+      padding: 2px 6px;
+      margin-right: 0;
+      background: red;
+
+      strong {
+        display: none;
+      }
+
+      .amount {
+        span {
+          color: #fff;
+
+          &:last-child {
+            display: none;
+          }
+        }
+      }
     }
   }
 `;

@@ -66,4 +66,12 @@ export const ProductList = styled.ul`
       }
     }
   }
+
+  @media(max-width: 960px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media(max-width: 660px) {
+    grid-template-columns: 1fr;
+  }
 `;
