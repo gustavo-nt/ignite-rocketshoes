@@ -34,7 +34,7 @@
 - [x] Subtotal e total dos preços dos produtos
 
 ### 💻 Projeto
-Rocketshoes é uma aplicação para venda de sapatos e tênis, onde possibilita ao usuário, a escolha da sua lista de produtos. Permitindo que "coloque" os produtos desejados em seu carrinho da aplicação. Esse Projeto foi desenvolvido como desafio principal do Capítulo II do Bootcamp Ignite.
+Rocketshoes é uma aplicação para venda de sapatos e tênis, onde possibilita ao usuário, a escolha da sua lista de produtos. Permitindo que "coloque" os produtos desejados em seu carrinho da aplicação. Esse Projeto foi desenvolvido como desafio principal da Semana 02 do Bootcamp Ignite.
 
 ### ✅ Demonstração
 <img src="https://github.com/gustavo-nt/ignite-rocketshoes/blob/master/src/assets/images/home.png" />
