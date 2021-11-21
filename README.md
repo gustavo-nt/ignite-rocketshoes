@@ -61,6 +61,9 @@ $ yarn ou npm dev
 
 # Rode o servidor fake
 $ yarn ou npm server
+
+# Execute os testes
+$ yarn test
 ```
 
 ### 🚀 Tecnologias
@@ -69,6 +72,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - ReactJS
 - Typescript
+- Jest
 
 ### 📕 Bibliotecas
 
