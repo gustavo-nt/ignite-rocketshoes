@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { MdAddShoppingCart } from 'react-icons/md';
 
 import { ProductList } from './styles';
@@ -55,7 +55,10 @@ const Home = (): JSX.Element => {
     <ProductList>
       {products.map(product => (
         <li key={product.id}>
-          <img src={product.image} alt={product.title} />
+          <img 
+            src={require(`../../assets/images/products/${product.image}`).default} 
+            alt={product.title} 
+          />
           <strong>{product.title}</strong>
           <span>{product.priceFormatted}</span>
           <button

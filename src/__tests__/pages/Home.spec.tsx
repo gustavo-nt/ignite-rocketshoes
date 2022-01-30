@@ -17,14 +17,14 @@ describe('Home Page', () => {
       {
         id: 1,
         image:
-          'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg',
+          'shoe-all-black.jpg',
         price: 179.9,
         title: 'Tênis de Caminhada Leve Confortável',
       },
       {
         id: 2,
         image:
-          'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg',
+          'shoe-black-white.jpg',
         price: 139.9,
         title: 'Tênis VR Caminhada Confortável Detalhes Couro Masculino',
       },
@@ -33,7 +33,7 @@ describe('Home Page', () => {
         title: 'Tênis Adidas Duramo Lite 2.0',
         price: 219.9,
         image:
-          'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg',
+          'shoe-all-white.jpg',
       },
     ]);
   });
@@ -45,7 +45,7 @@ describe('Home Page', () => {
           amount: 2,
           id: 1,
           image:
-            'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg',
+            'shoe-all-black.jpg',
           price: 179.9,
           title: 'Tênis de Caminhada Leve Confortável',
         },
@@ -53,7 +53,7 @@ describe('Home Page', () => {
           amount: 1,
           id: 2,
           image:
-            'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg',
+            'shoe-black-white.jpg',
           price: 139.9,
           title: 'Tênis VR Caminhada Confortável Detalhes Couro Masculino',
         },
@@ -99,7 +99,7 @@ describe('Home Page', () => {
           amount: 3,
           id: 1,
           image:
-            'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg',
+            'shoe-all-black.jpg',
           price: 179.9,
           title: 'Tênis de Caminhada Leve Confortável',
         },

@@ -1,7 +1,7 @@
 import { createContext, ReactNode, useContext, useEffect, useRef, useState } from 'react';
 import { toast } from 'react-toastify';
 import { api } from '../services/api';
-import { Product, Stock } from '../types';
+import { Product } from '../types';
 
 interface CartProviderProps {
   children: ReactNode;
@@ -52,6 +52,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
       const productExists = arrCart.find(product => product.id === productId);
 
       const stock = await api.get(`stock/${productId}`);
+      console.log(stock)
       const stockAmount = stock.data.amount;
       const currentAmount = productExists ? productExists.amount : 0;
       const amount = currentAmount + 1;
@@ -65,6 +66,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
         productExists.amount = amount;
       } else {
         const product = await api.get(`/products/${productId}`);
+        console.log(product)
         arrCart.push({
           ...product.data,
           amount: 1

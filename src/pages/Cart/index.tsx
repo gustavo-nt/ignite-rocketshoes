@@ -74,7 +74,10 @@ const Cart = (): JSX.Element => {
               {cartFormatted.map(product => (
                 <tr data-testid="product" key={product.id}>
                   <td>
-                    <img src={product.image} alt={product.title} />
+                    <img 
+                      src={require(`../../assets/images/products/${product.image}`).default} 
+                      alt={product.title} 
+                    />
                   </td>
                   <td>
                     <strong>{product.title}</strong>
