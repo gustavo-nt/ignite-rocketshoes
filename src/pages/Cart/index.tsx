@@ -101,6 +101,7 @@ const Cart = (): JSX.Element => {
                       />
                       <button
                         type="button"
+                        className="increment-product"
                         data-testid="increment-product"
                         onClick={() => handleProductIncrement(product)}
                       >

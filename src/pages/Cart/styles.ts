@@ -82,9 +82,16 @@ export const ProductTable = styled.table`
   }
 
   button {
-    background: none;
+    display: flex;
+    align-items: center;
+
     border: 0;
     padding: 6px;
+    background: none;
+
+    &.increment-product {
+      margin-left: -1px;
+    }
 
     svg {
       color: #7159c1;
