@@ -59,9 +59,6 @@ $ yarn ou npm
 # Execute a aplicação
 $ yarn ou npm dev
 
-# Rode o servidor fake
-$ yarn ou npm server
-
 # Execute os testes
 $ yarn test
 ```
@@ -83,7 +80,6 @@ Esse projeto foi utilizou das seguintes lib:
 - react-icons
 - webpack
 - babel
-- json-server
 
 ### 📝 Licença
 
